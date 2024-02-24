@@ -1,3 +1,55 @@
+// 1.	Write a java application that takes an integer number as input from command line and computes the sum of digits and number of digits
+
+// 2.	WAP to enter age to find out person is eligible to vote or not
+
+// 3.	Enter a number and check whether its Armstrong or not
+
+// 4.	WAP to enter three numbers and check the smallest of 3 numbers
+
+// 5. WAP to calculate perimeter and area of circle, triangle, square, and rectangle using switch case
+
+// 6. Write a program to take marks as input and display the associated grade 
+
+// 7. WAP to demonstrate the use of arithmetic and bitwise operators
+
+// 8. WAP to demonstrate the use of logical and relational operators
+
+// 9. WAP to take a number as input and check whether it is a prime number or not.
+
+// 1
+// public class digits{
+//     public static void main(String [] args){
+//         int num,digit,sum=0;
+//         String a=args[0];
+//         System.out.println("Length -->"+a.length());
+//         num=Integer.parseInt(args[0]);
+//         while (num>0){
+//             digit=num%10;
+//             sum=sum+digit;
+//             num=num/10;
+//         }
+//         System.out.println("Sum of Digits -->"+sum);
+//     }
+// }
+
+
+// 2
+// import java.util.Scanner;
+// public class vote{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter age --> ");
+//         int age=sc.nextInt();
+//         if (age>=18){
+//             System.out.println("You can vote.");
+//         }        
+//         else{
+//             System.out.println("You cannot vote.");
+//         } 
+//     }
+// }
+
+
 // 3
 // import java.util.Scanner;
 // public class armstrong{
@@ -43,24 +95,6 @@
 //     }
 // }
 
-// 1.	Write a java application that takes an integer number as input from command line and computes the sum of digits and number of digits
-
-// 2.	WAP to enter age to find out person is eligible to vote or not
-
-// 3.	Enter a number and check whether its Armstrong or not
-
-// 4.	WAP to enter three numbers and check the smallest of 3 numbers
-
-// 5. WAP to calculate perimeter and area of circle, triangle, square, and rectangle using switch case
-
-// 6. Write a program to take marks as input and display the associated grade 
-
-// 7. WAP to demonstrate the use of arithmetic and bitwise operators
-
-// 8. WAP to demonstrate the use of logical and relational operators
-
-// 9. WAP to take a number as input and check whether it is a prime number or not.
-
 
 // 5
 // public class extraQuestion {
@@ -104,7 +138,56 @@
 //     }    
 // }
 
+
 // 6
-public class extraQuestion {
-       
-}
+// import java.util.Scanner;
+// public class extraQuestion {
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("Enter marks : ");
+//         int a=sc.nextInt();
+//         if (a>=90){
+//             System.out.println("Grade A");
+//         }
+//         else if(a>=80){
+//             System.out.println("Grade B");
+//         } 
+//         else if(a>=70){
+//             System.out.println("Grade C");
+//         } 
+//         else if(a>=60){
+//             System.out.println("Grade D");
+//         } 
+//         else if(a>=50){
+//             System.out.println("Grade E");
+//         } 
+//         else if(a>=40){
+//             System.out.println("Grade F");
+//         } 
+//         else{
+//             System.out.println("Fail");
+//         }
+//     }
+// }
+
+
+// 7
+// public class extraQuestion{
+//     public static void main(String[] args) {
+//         System.out.println("Arithmetic Operators");
+//         System.out.println("Addition : 5+5 = "+(5+5));
+//         System.out.println("Subtraction : 5-5 = "+(5-5));
+//         System.out.println("Multiplication : 5*5 = "+(5*5));
+//         System.out.println("Quotient : 5/5 = "+(5/5));
+//         System.out.println("Remainder : 5%5 = "+(5%5));
+//         System.out.println("\n");
+//         System.out.println("Bitwise Operators");
+//         System.out.println("AND & : 1&1 = "+(1&1));
+//         System.out.println("OR | : 0|0 = "+(0|0));
+//         System.out.println("XOR ^ : 5^5 = "+(5^5));
+//         System.out.println("NOT ~ : ~5 = "+(~5));
+//         System.out.println("Left Shift << : 5<<5 = "+(5<<5));
+//         System.out.println("Right Shift >> : 5>>5 = "+(5>>5));
+//         System.out.println("Unsigned Right Shift >>> : 5>>>5 = "+(5>>>5));
+//     }
+// }
