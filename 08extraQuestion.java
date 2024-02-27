@@ -16,7 +16,7 @@
 
 // 9. WAP to take a number as input and check whether it is a prime number or not.
 
-// 1
+// 1.
 // public class digits{
 //     public static void main(String [] args){
 //         int num,digit,sum=0;
@@ -33,7 +33,7 @@
 // }
 
 
-// 2
+// 2.
 // import java.util.Scanner;
 // public class vote{
 //     public static void main(String[]args){
@@ -50,7 +50,7 @@
 // }
 
 
-// 3
+// 3.
 // import java.util.Scanner;
 // public class armstrong{
 //     public static void main(String[] args){
@@ -74,7 +74,7 @@
 // }
 
 
-// 4
+// 4.
 // import java.util.Scanner;
 // public class SmallestOfThree {
 //     public static void main(String[] args) {
@@ -96,7 +96,7 @@
 // }
 
 
-// 5
+// 5.
 // public class extraQuestion {
 //     public static void main(String[] args) {
 //         Scanner sc=new Scanner(System.in);
@@ -139,7 +139,7 @@
 // }
 
 
-// 6
+// 6.
 // import java.util.Scanner;
 // public class extraQuestion {
 //     public static void main(String[] args) {
@@ -171,7 +171,7 @@
 // }
 
 
-// 7
+// 7.
 // public class extraQuestion{
 //     public static void main(String[] args) {
 //         System.out.println("Arithmetic Operators");
@@ -191,3 +191,56 @@
 //         System.out.println("Unsigned Right Shift >>> : 5>>>5 = "+(5>>>5));
 //     }
 // }
+
+
+// 8. 
+// public class extraQuestion{
+//     public static void main(String[]args){
+//         System.out.println("Logical Operators");
+//         System.out.println("Logical AND && : 1<2&&2>1 = "+(1<2&&2>1));
+//         System.out.println("Logical OR || : 1<2||2>1 = "+(1<2||2>1));
+//         System.out.println("Logical NOT ! : !false= "+(!false));
+//         System.out.println("\n");
+//         System.out.println("Relational Operators");
+//         System.out.println("Equal to == : 1==1 = "+(1==1));
+//         System.out.println("Not equal to != : 1!=2 = "+(1!=2));
+//         System.out.println("Greater than > : 2>1 = "+(2>1));
+//         System.out.println("Less than < : 1<2 = "+(1<2));
+//         System.out.println("Less than equal to < : 1<=1 = "+(1<=1));
+//         System.out.println("Greater than equal to < : 1>=1 = "+(1>=1));
+//     }
+// }
+
+// 9.
+// import java.util.Scanner;
+// public class prime{ 
+//     public static void main(String[] args) {
+
+//         int flag=1;
+
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("Enter a number : ");
+//         int num=sc.nextInt();
+
+//         if (num<=1){
+//             flag=0;
+//         }
+//         else{
+//             for (int i = 2; i < (num/2); i++) {
+//                 if (num%i==0){
+//                     flag=0;
+//                     break;
+//                 }
+//             }
+//         }
+
+//         if (flag==0){
+//             System.out.println("Not a prime number.");
+//         }
+//         else{
+//             System.out.println("Prime number.");
+//         }
+//     }
+// }
+
+
