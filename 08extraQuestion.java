@@ -244,3 +244,49 @@
 // }
 
 
+// 10. WAP to create sphere class in Shapes 3D package and print volume and surface area.
+// package Shapes3D;
+
+// class Sphere{
+
+//     private double radius;
+
+//     public  Sphere(double radius){
+//         this.radius=radius;
+//     }
+//     public double getVolume(){
+//         // Volume of a sphere: V = (4/3) * π * r^3
+//         return (4/3)*Math.PI*Math.pow(radius,3);
+//     }
+//     public double getSurfaceArea(){
+//         // Surface area of a sphere: A = 4 * π * r^2
+//         return 4*Math.PI*Math.pow(radius, 2);
+//     }
+
+//     public static void main(String [] args){
+//         double sphereRadius=5.0;
+//         Sphere mySphere= new Sphere(sphereRadius);
+//         System.out.printf("Volume ="+mySphere.getVolume()+"\n");
+//         System.out.printf("Surface Area ="+mySphere.getSurfaceArea()+"\n");
+//     }
+// }
+
+
+// 11. WAP to print Fibonnaci numbers and store it in an array.
+// import java.util.*;
+// public class fibo{
+//     public static void main(String[] args) {
+//         int n=10;
+//         int[] arr=new int[n];
+//         arr[0]=0;
+//         arr[1]=1;
+//         for(int i=2;i<n;i++){
+//             arr[i] = arr[i-1] + arr[i-2];
+//         }
+//         System.out.println("Fibonacci numbers  are : ");
+//         for(int i=0;i<n;i++){
+//             System.out.println(arr[i]);
+//         }
+//     }
+// }
+    
