@@ -289,4 +289,33 @@
 //         }
 //     }
 // }
-    
+
+// 12. WAP to take 10 elements as an input in an array, sort it and print using functions.
+// import java.util.Scanner;
+// public class  SortArray {
+//     static int[]sort(int[]arr){
+//         int temp;
+//         for (int i=0;i<arr.length - 1;i++){
+//             if (arr[i]>arr[i+1]){
+//                 temp=arr[i];
+//                 arr[i]=arr[i+1];
+//                 arr[i+1]=temp;
+//             }
+//         }
+//         return  arr;
+//     }
+//     public static void main(String[] args) {    
+//         Scanner scanner = new Scanner(System.in);   
+//         int n = 10;
+//         int[] arr= new int[n];    
+//         for (int i=0;i<10;i++)  {
+//             System.out.print("Enter number "+(i+1)+" : ");    
+//             arr[i] = scanner.nextInt();
+//         }
+//         System.out.println("\nSorted Array is:");  
+//         sort(arr);
+//         for (int i=0;i<arr.length;i++){
+//             System.out.println(arr[i]+"\t");  
+//         }
+//     }
+// }
